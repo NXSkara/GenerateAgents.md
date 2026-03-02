@@ -54,8 +54,8 @@ uv run autogenerateagentsmd /path/to/local/repo --model anthropic/claude-sonnet-
 uv run autogenerateagentsmd --github-repository https://github.com/pallets/flask --model openai/gpt-5.2
 uv run autogenerateagentsmd /path/to/local/repo --model ollama/llama3
 
-# Connect to a local provider (like Ollama or vLLM) using custom endpoints:
-uv run autogenerateagentsmd /path/to/local/repo --model ollama_chat/llama3.2:1b --api-base "http://localhost:11434" --api-key "optional-key"
+# Connect to a local provider (like Ollama or vLLM) using custom endpoints: `ollama run llama3.2:1b`
+uv run autogenerateagentsmd /path/to/local/repo --model ollama_chat/llama3.2 --api-base "http://localhost:11434" --api-key "optional-key"
 
 # Pass just a default catalog provider name (gemini, anthropic, openai)
 uv run autogenerateagentsmd /path/to/local/repo --model anthropic
@@ -212,7 +212,7 @@ GenerateAgents/
 ### Environment Variables
 
 | Variable | Required | Description |
-|---|---|---|
+`|---|---|---|
 | `AUTOSKILL_MODEL` | No | Default model string (avoids `--model` flag) |
 | `GITHUB_REPO_URL` | No | Target repository URL (skips prompt) |
 
